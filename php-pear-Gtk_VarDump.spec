@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Gtk
-%define         _subclass       VarDump
+%define		_class		Gtk
+%define		_subclass	VarDump
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - A simple GUI to example php data trees
-Summary(pl):	%{_pearname} - Proste GUI pokazuj±ce przyk³adowe drzewo danych
+Summary:	%{_pearname} - a simple GUI to example php data trees
+Summary(pl):	%{_pearname} - proste GUI pokazuj±ce przyk³adowe drzewo danych
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	1
