@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - a simple GUI to example php data trees
+Summary:	%{_pearname} - a simple GUI to example PHP data trees
 Summary(pl):	%{_pearname} - proste GUI pokazuj±ce przyk³adowe drzewo danych
 Name:		php-pear-%{_pearname}
 Version:	0.1
