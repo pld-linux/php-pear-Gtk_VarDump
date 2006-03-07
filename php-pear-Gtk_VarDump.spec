@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	8bd5e28c188d6cd139d9c8ce765a53f5
 URL:		http://pear.php.net/package/Gtk_VarDump/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php4-gtk
 Requires:	php-pear
