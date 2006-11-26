@@ -8,7 +8,7 @@ Summary:	%{_pearname} - a simple GUI to example PHP data trees
 Summary(pl):	%{_pearname} - proste GUI pokazuj±ce przyk³adowe drzewo danych
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
-Release:	4
+Release:	5
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -17,7 +17,7 @@ URL:		http://pear.php.net/package/Gtk_VarDump/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php4-gtk
+Requires:	php(gtk)
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
