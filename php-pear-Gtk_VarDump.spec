@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - a simple GUI to example PHP data trees
-Summary(pl):	%{_pearname} - proste GUI pokazuj±ce przyk³adowe drzewo danych
+Summary(pl.UTF-8):   %{_pearname} - proste GUI pokazujÄ…ce przykÅ‚adowe drzewo danych
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	1
@@ -27,7 +27,7 @@ Just a regedit type interface to examine PHP data trees.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Prosty interfejs w stylu regedit do badania drzew danych PHP.
 
 Ta klasa ma w PEAR status: %{_status}.
