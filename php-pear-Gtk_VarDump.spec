@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - a simple GUI to example PHP data trees
-Summary(pl.UTF-8):   %{_pearname} - proste GUI pokazujące przykładowe drzewo danych
+Summary(pl.UTF-8):	%{_pearname} - proste GUI pokazujące przykładowe drzewo danych
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	1
