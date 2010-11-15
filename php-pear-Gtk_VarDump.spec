@@ -1,18 +1,15 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Gtk
-%define		_subclass	VarDump
 %define		_status		stable
-%define		_pearname	%{_class}_%{_subclass}
-
+%define		_pearname	Gtk_VarDump
 Summary:	%{_pearname} - a simple GUI to example PHP data trees
 Summary(pl.UTF-8):	%{_pearname} - proste GUI pokazujące przykładowe drzewo danych
 Name:		php-pear-%{_pearname}
-Version:	1.0.0
-Release:	2
+Version:	1.0.1
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	5ce06e3b157a9c86c4e669ded2fd4315
+# Source0-md5:	1dd54b74bb5ddd1e994b5261b4aacd21
 URL:		http://pear.php.net/package/Gtk_VarDump/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -46,7 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc install.log
-%dir %{php_pear_dir}/%{_class}/%{_subclass}
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/%{_class}/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}/*.glade
+%{php_pear_dir}/Gtk/VarDump.php
+%{php_pear_dir}/data/%{_pearname}
