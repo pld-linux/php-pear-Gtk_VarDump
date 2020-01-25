@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	Gtk_VarDump
 Summary:	%{_pearname} - a simple GUI to example PHP data trees
